@@ -1,0 +1,2 @@
+- git: {local-name: serial, uri: 'https://github.com/wjwwood/serial.git', version: master}
+- git: {local-name: sonar_array, uri: 'https://github.com/LTU-CEG/sonar_array.git', version: master}
