@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="sonar_array" name="sonar_array" type="sonar_array_node" output="screen">
+        <param name="port" value="/dev/ttyUSB0" />
+        <param name="baudrate" value="57600" />
+    </node>
+</launch>

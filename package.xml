@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sonar_array</name>
+  <version>1.0.0</version>
+  <description>Package for communicating with a set of sonars and converting the data into ROS messages.</description>
+
+  <maintainer email="emil.fresk@gmail.com">Emil Fresk</maintainer>
+  <author email="emil.fresk@gmail.com">Emil Fresk</author>
+  <license>Boost Software License 1.0</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>serial</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>serial</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>serial</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

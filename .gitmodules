@@ -1,0 +1,4 @@
+[submodule "dep/libserialpipe"]
+	path = dep/libserialpipe
+	url = https://github.com/LTU-CEG/libserialpipe.git
+	branch = master
